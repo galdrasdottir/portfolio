@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&family=Paytone+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="./css/index.css">
 	<title>Portfolio</title>
 
 	<!--Additional elements for browsers and robots go here goes here-->
@@ -38,27 +38,38 @@
 	</header>
 	<main>
 		<section id="banner">
-			<div id="intro-banner">
+			<div class="intro-content">
 				<div id="intro-text">
-					<h1>Hello!</h1>
-					<h2>I'm a programmer and textile nerd</h2>
+					<h1>Yahaha! You found me!</h1>
+					<h3></h3>
+					<h2></h2>
 				</div>
-				<img id="intro-image"></img>
+				<img id="intro-image" src="./media/intro.jpg"/>
 			</div>
 		</section>
 		<section id="about-me">
-			<div id="about-content">
+			<div class="about-content">
 				<div class="text-container">
-					<h2>About Me</h2>
-					<p></p>
-					<details class="detail-box" id="textiles-box"></details>
-					<details class="detail-box" id="examples-box"></details>
-					<details class="detail-box" id="programming-box"></details>
+					<div id="about-blurb">
+						<h2>About Me</h2>
+						<p>I'm a programmer and textile artisan based in Scotland. I also have a postgraduate degree in Medieval Literature, which influences my practice occasionally.</p>
+						<p>Hire me to make you a website, mend your coat, or tell you medieval facts!</p>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section id="projects">
-			
+			<div class="boxes">
+				<div class="detail-box" id="textiles-box">
+					<h3>Some textile stuff I do</h3>
+				</div>
+				<div class="detail-box" id="examples-box">
+					<h3>Do I want this?</h3>
+				</div>
+				<div class="detail-box" id="programming-box">
+					<h3>Some coding stuff I do</h3>
+				</div>
+			</div>
 		</section>
 	</main>
 	<footer>
