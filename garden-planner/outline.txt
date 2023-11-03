@@ -1,0 +1,40 @@
+# Garden planner outline
+
+
+## Questions
+
+How large is your garden? 10 x 10m square max
+(Each square / 2 for max size 20x20 50cm square planting spots)
+Mark what areas are grass/path/not to be planted
+(on click or mark on row/col no to mark whole row)
+Plant trees/shrubs
+(mark 4 grid squares as default)
+Plant bulbs
+Plant vegetables
+Plant flowers
+
+
+
+## Results
+
+- a 20x20 grid showing which bits will be planted up
+- a calendar highlighting which plants are to be sown and harvested
+
+### Stretch goals
+
+Make grid morph showing development when clicking on each month
+Suggest wildflower/meadow strip if x amount of grid is bare
+"glasshouse" area showing how many seeds to sow indoors
+
+
+## Resources
+
+Royal Horticultural Society
+-> array with plant details
+
+### Images
+- bare soil
+- not planted (grass)
+- seedling
+- flowering
+- harvesting

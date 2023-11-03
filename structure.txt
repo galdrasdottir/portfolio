@@ -1,0 +1,35 @@
+# plans and timelines
+
+
+Colour palette
+==============
+
+#77AD09 light green
+#2C3815 dark green
+#94CDFF blue
+#EEDAA0 light brown
+#4C3006 dark brown
+
+Homepage
+========
+- what pictures
+- about me
+- skills: * html, javascript, css; python, SQL
+		  * textiles (dye, mend, sew, embroider)
+
+
+Contact page
+============
+- email
+- instagram
+
+
+Project pages
+============
+One for code, one for textiles
+
+- Goblin Market? - would need fixing and implementing
+- Garden planner with css grid - needs building
+
+
+- Textile stuff - needs pictures & descriptions
