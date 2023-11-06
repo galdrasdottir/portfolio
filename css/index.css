@@ -90,7 +90,8 @@ header .mobile {
 	justify-content: space-around;
 	align-items: center;
 	margin: 1.5rem;
-	color: rgba(31, 52, 11, 1);	
+	color: rgba(31, 52, 11, 1);
+	margin-bottom: 4rem;	
 }
 
 #intro-text h1 {
@@ -115,22 +116,47 @@ header .mobile {
 	color: rgba(169, 195, 108, 1);
 	width: 70%;
 	margin: auto;
-	margin-bottom: 1rem;
+	margin-bottom: 4rem;
 	padding: 1.5rem;
 	padding-top: 0.1rem;
 }
+
+ /* projects section */
 
 .boxes {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 1.5rem;
-	padding: 0.5rem;
+	padding: 1rem;
 	background-color: rgba(141, 113, 91, 0.5);
 }
 
 .detail-box {
-	width: 30%;
+	width: 28%;
 	background-color: ghostwhite;
+	color: rgba(31, 52, 11, 1);
+	padding: 1rem;
+	text-align: left;
+}
+
+#examples-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#examples-box img {
+	max-width: 80%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
   /* footer */
+
+ footer {
+ 	text-align: left;
+ 	color: rgba(31, 52, 11, 1);
+ 	margin-top: 1rem;
+ 	padding: 0.3rem;
+ }
