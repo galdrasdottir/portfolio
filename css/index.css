@@ -63,10 +63,30 @@ header a:visited {
 	color: rgba(246, 124, 49, 1);
 } 
 
+header button {
+	background-color: rgba(169, 195, 108, 1);
+	border: none;
+	color: rgba(31, 52, 11, 1);
+ 	font-size: 16px;
+	font-family: "Oxygen";
+	padding: 0.5rem;
+}
+
+header button:hover {
+	background-color: rgba(169, 195, 108, 0.5);	
+}
+
+header button:active {
+	background-color: rgba(246, 124, 49, 0.2);;
+}
+
 header .mobile {
   display: none;
 }
 
+header li:nth-child(2), header li:nth-child(3) {
+	display: none;
+}
 
 @media only screen and (max-width: 645px) {
   header .desktop {

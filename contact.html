@@ -8,22 +8,54 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&family=Paytone+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/css/contact.css">
-	<title>Page Title</title>
-
-	<!--Additional elements for browsers and robots go here goes here-->
+	<link rel="stylesheet" href="./css/contact.css">
+	<script src="https://kit.fontawesome.com/2a571f5606.js" crossorigin="anonymous"></script>
+	<title>Contact</title>
 
 </head>
 
 <body>
 	<header>
-		<nav>
-			
+		<nav class="desktop">
+			<ul>
+	          <li><a href="#">Home</a></li>
+	          <li><a href="#">Textiles</a></li>
+	          <li><a href="#">Programming</a></li>
+	          <li><a href="./contact.html">Contact</a></li>
+	          <li><a href="./contact.html#snail-mail"><button type="button">Send me snail mail</button></a></li>
+	        </ul>
+		</nav>
+		<nav class="mobile">
+			<ul>
+	          <li><a href="#">
+	          	<span class="fa-solid fa-house"></span>
+	          </a></li>
+	          <li><a href="#">
+	          	<span class="fa-solid fa-paintbrush"></span>
+	          </a></li>
+	          <li><a href="#">
+	          	<span class="fa-solid fa-code"></span>
+	          </a></li>
+	          <li><a href="./contact.html">
+	          	<span class="fa-solid fa-envelope"></span>
+	          </a></li>
+	          <li><button><img src="./media/snail.png"></button></li>
+	        </ul>
 		</nav>
 	</header>
 	<main>
-		<section id="contact-info">
-			
+		<section id="contact-links">
+			<h1>Get In Touch</h1>
+			<h3>Do you have a textile or coding project ideas? I'd love to hear them, as well as any feedback on my public projects. Find me here:</h3>
+			<div class="contact-icons">
+				<a href="https://www.instagram.com/muswif"><span class="fa-solid fa-camera-retro fa-xl"></span></a>
+				<a href="https://github.com/galdrasdottir"><span class="fa-brands fa-github fa-xl"></span></a>
+				<a href="#snail-mail"><span class="fa-solid fa-envelope fa-xl"></span></a>
+			</div>
+		</section>
+		<section id="snail-mail">
+			<h2>Write me Snail Mail</h2>
+			<p>Okay, it's still electronic mail, but you get to pick which medieval snail shall carry it to my inbox!</p>
 		</section>
 	</main>
 	<footer>

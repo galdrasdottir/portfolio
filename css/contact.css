@@ -1,0 +1,146 @@
+/* universal styles */
+html {
+ 	font-size: 16px;
+ 	text-align: center;
+	background-color: #f3f3f3;
+	font-family: "Oxygen";
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+h1 {
+	font-family: "Paytone One";
+	font-size: 4rem;
+}
+
+h2 {
+	font-family: "Lora";
+	font-size: 2rem;
+}
+
+
+/* header */
+
+header {
+	width: 100%;
+	font-weight: 600;
+	background-color: whitesmoke;
+	border-bottom: 1px solid rgba(31, 52, 11, 1);
+
+}
+
+header ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	padding: 0.5rem;	
+}
+
+header li {
+	padding-right: 1.5rem;
+}
+
+header a {
+	text-decoration: none;
+	color: rgba(31, 52, 11, 1);
+}
+
+header a:hover {
+	color: rgba(169, 195, 108, 1);
+	text-decoration: underline;
+}
+
+header a:active {
+	color: rgba(31, 52, 11, 0.5);
+} 
+
+header a:visited {
+	color: rgba(246, 124, 49, 1);
+} 
+
+header button {
+	background-color: rgba(169, 195, 108, 1);
+	border: none;
+	color: rgba(31, 52, 11, 1);
+ 	font-size: 16px;
+	font-family: "Oxygen";
+	height: 2rem;
+}
+
+header button:hover {
+	background-color: rgba(169, 195, 108, 0.5);	
+}
+
+header button:active {
+	background-color: rgba(246, 124, 49, 0.2);;
+}
+
+header button img {
+	height: 2rem;
+	width: auto;
+}
+
+header .mobile {
+  display: none;
+}
+
+header li:nth-child(2), header li:nth-child(3) {
+	display: none;
+}
+
+@media only screen and (max-width: 645px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+/*contact links section */
+
+
+#contact-links {
+	margin: 4rem;
+	color: rgba(31, 52, 11, 1);
+	
+}
+
+#contact-links h1 {
+	color: rgba(141, 113, 91, 1);
+}
+
+.contact-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+.contact-icons .fa-solid {
+	padding: 1.5rem;
+}
+
+/* Snail Mail section */
+
+#snail-mail {
+	background-color: rgba(31, 52, 11, 1);
+	color: rgba(169, 195, 108, 1);
+	width: 80%;
+	margin: auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	padding: 1.5rem;
+	padding-top: 0.1rem;
+}
+
+
+/*footer*/
