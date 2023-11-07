@@ -83,6 +83,7 @@ header button:active {
 header button img {
 	height: 2rem;
 	width: auto;
+	background-color: #f3f3f3;
 }
 
 header .mobile {
@@ -140,6 +141,40 @@ header li:nth-child(2), header li:nth-child(3) {
 	margin-bottom: 4rem;
 	padding: 1.5rem;
 	padding-top: 0.1rem;
+}
+
+#snail-mail h3 {
+	text-decoration: underline;
+}
+
+#snail-mail img {
+	max-height: 6rem;
+	max-width: auto;
+	padding: 1rem;
+	padding-top: 0;
+}
+
+#radio-buttons {
+	display: flex;
+	padding: 0.5rem;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+
+}
+
+#message-field {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+input[type=radio] {
+	margin: 1rem;
+}
+
+label {
+	margin: 1rem;
+	display: flex;
 }
 
 
