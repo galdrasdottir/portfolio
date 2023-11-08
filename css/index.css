@@ -30,7 +30,6 @@ header {
 	font-weight: 600;
 	background-color: whitesmoke;
 	border-bottom: 1px solid rgba(31, 52, 11, 1);
-
 }
 
 header ul {
@@ -38,7 +37,7 @@ header ul {
 	justify-content: flex-end;
 	align-items: center;
 	list-style-type: none;
-	padding: 0.5rem;	
+	font-size: 18px;
 }
 
 header li {
@@ -88,6 +87,12 @@ header li:nth-child(2), header li:nth-child(3) {
 	display: none;
 }
 
+header button img {
+	height: 2rem;
+	width: auto;
+
+}
+
 @media only screen and (max-width: 645px) {
   header .desktop {
     display: none;
@@ -98,6 +103,9 @@ header li:nth-child(2), header li:nth-child(3) {
     width: 100%;
   }
 
+  header button {
+		background-color: #f3f3f3;  
+  }
 }
 
   /* main */
