@@ -50,11 +50,11 @@
 			<div class="contact-icons">
 				<a href="https://www.instagram.com/muswif"><span class="fa-solid fa-camera-retro fa-xl"></span></a>
 				<a href="https://github.com/galdrasdottir"><span class="fa-brands fa-github fa-xl"></span></a>
-				<a href="#snail-mail"><span class="fa-solid fa-envelope fa-xl"></span></a>
+				<a href="mailto:kocaurelms@gmail.com"><span class="fa-solid fa-envelope fa-xl"></span></a>
 			</div>
 		</section>
 		<section id="snail-mail">
-			<form action="/submission.html", method="POST">		
+			<form id="submission-form" action="/submission.html", method="POST">		
 			<h2>Write me Snail Mail</h2>
 			<p>Okay, it's still electronic mail, but you get to pick which medieval snail shall carry it to my inbox!</p>
 			<p>Pick your carrier snail:</p>
@@ -79,10 +79,12 @@
 			<span id="message-field">
 				<label for="message"><h3>What is your message?</h3></label>
 				<textarea id="message" name="message" rows="8" cols="80"></textarea>
+				<button type="submit" id="submit-button">Send message</button>
 			</span>
 			</form>
 		</section>
 	</main>
+	<script type="text/javascript" src="./main.js"></script>
 	<footer>
 		
 	</footer>

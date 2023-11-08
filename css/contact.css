@@ -177,9 +177,6 @@ header li:nth-child(2), header li:nth-child(3) {
 	justify-content: center;
 }
 
-input[type=radio] {
-	margin-top: 2rem;
-}
 
 label {
 	margin: 1rem;
@@ -191,5 +188,18 @@ label {
 #message-field textarea {
 	max-width: 90%;
 }
+input[type=radio] {
+	margin-top: 2rem;
+}
 
+#submit-button {
+	margin-top: 0.5rem;
+	padding: 0.3rem;
+	background-color: rgba(169, 195, 108, 1);
+	border: none;
+	color: rgba(31, 52, 11, 1);
+ 	font-size: 16px;
+	font-family: "Oxygen";
+	height: 2rem;
+}
 /*footer*/
