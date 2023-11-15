@@ -54,7 +54,7 @@
 			</div>
 		</section>
 		<section id="snail-mail">
-			<form id="submission-form" action="/submission.html", method="POST">		
+			<form id="submission-form" action="https://formspree.io/f/xeqbwgpv" method="POST">		
 			<h2>Write me Snail Mail</h2>
 			<p>Okay, it's still electronic mail, but you get to pick which medieval snail shall carry it to my inbox!</p>
 			<p>Pick your carrier snail:</p>
@@ -77,8 +77,12 @@
 				</div>
 			</span>
 			<span id="message-field">
+				<label for="name">Your name:</label>
+				<input type="text" name="name" id="name" required>
+				<label for="email">Your email:</label>
+				<input type="email" name="email" id="email" required>
 				<label for="message"><h3>What is your message?</h3></label>
-				<textarea id="message" name="message" rows="8" cols="80"></textarea>
+				<textarea id="message" name="message" rows="8" cols="80" required></textarea>
 				<button type="submit" id="submit-button">Send message</button>
 			</span>
 			</form>
