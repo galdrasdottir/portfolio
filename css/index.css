@@ -165,6 +165,11 @@ header button img {
 	color: rgba(31, 52, 11, 1);
 	padding: 1rem;
 	text-align: left;
+	height: 100%;
+}
+
+.detail-box li {
+	padding: 0.5rem;
 }
 
 #examples-box {
@@ -179,6 +184,7 @@ header button img {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
+
 
   /* footer */
 
